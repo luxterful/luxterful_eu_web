@@ -42,6 +42,23 @@
         </NuxtLink>
       </div>
     </div>
+    <div>
+      <div class="text-2xl mt-5 dark:text-white">Freelancing Projects</div>
+      <div class="">
+        <NuxtLink
+          to="https://www.yogandmind.de/"
+          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
+        >
+          Yogandmind
+        </NuxtLink>
+        <NuxtLink
+          to="https://www.krankengymnastik-agbokhan.de/"
+          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
+        >
+          Krankengymnastik-Agbokhan
+        </NuxtLink>
+      </div>
+    </div>
   </div>
 </template>
 
