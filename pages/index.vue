@@ -62,8 +62,4 @@
   </div>
 </template>
 
-<script setup>
-const { data } = await useAsyncData("home", () =>
-  queryContent(`/recipes`).find()
-);
-</script>
+<script setup></script>
