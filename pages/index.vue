@@ -11,7 +11,7 @@
         <div class="font-extrabold text-3xl">LUKAS BAUER</div>
         <div class="font-thin text-lg mt-5">
           Software engineer, UX enthusiast and minimalist.<br />
-          I like to design stuff and keep it simple.<br />
+          I like to design visual stuff and keep it simple.<br />
           In Aug'22 i fell in love with chess.
         </div>
       </div>
