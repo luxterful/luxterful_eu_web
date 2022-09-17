@@ -14,52 +14,21 @@
         </div>
       </div>
     </div>
-    <div>
-      <div class="text-2xl mt-5 dark:text-white">Connect</div>
-      <div class="">
-        <NuxtLink
-          to="https://www.linkedin.com/in/derlukasbauer/"
-          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
-        >
-          LinkedIn
-        </NuxtLink>
-        <NuxtLink
-          to="https://www.github.com/luxterful"
-          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
-        >
-          GitHub
-        </NuxtLink>
-      </div>
-    </div>
-    <div>
-      <div class="text-2xl mt-5 dark:text-white">Apps</div>
-      <div class="">
-        <NuxtLink
-          to="https://recipes.luxterful.eu/"
-          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
-        >
-          Recipes
-        </NuxtLink>
-      </div>
-    </div>
-    <div>
-      <div class="text-2xl mt-5 dark:text-white">Freelancing Projects</div>
-      <div class="">
-        <NuxtLink
-          to="https://www.yogandmind.de/"
-          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
-        >
-          Yogandmind
-        </NuxtLink>
-        <NuxtLink
-          to="https://www.krankengymnastik-agbokhan.de/"
-          class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
-        >
-          Krankengymnastik-Agbokhan
-        </NuxtLink>
-      </div>
+    <div v-for="category in data.portfolio">
+      <div class="text-2xl mt-5 dark:text-white">{{ category.title }}</div>
+      <NuxtLink
+        v-for="item in category.items"
+        :to="item.url"
+        class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
+      >
+        {{ item.name }}
+      </NuxtLink>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const { data } = await useAsyncData(`portfolio`, () =>
+  queryContent(`/portfolio`).findOne()
+);
+</script>

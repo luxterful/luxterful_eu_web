@@ -15,14 +15,15 @@
         legal notice
       </a>
     </div>
+    <div class="text-center text-xs text-stone-300 dark:text-stone-700 mt-3">
+      <a href="https://github.com/luxterful/luxterful_eu_web">edit on github</a>
+    </div>
   </div>
 </template>
 
 <script setup>
 useHead({
   title: "Luxterful",
-  // or, instead:
-  // titleTemplate: (title) => `My App - ${title}`,
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
   charset: "utf-8",
   meta: [
@@ -41,12 +42,6 @@ useHead({
   bodyAttrs: {
     class: "dark:bg-stone-800 bg-white",
   },
-  link: [
-    {
-      rel: "manifest",
-      href: "/manifest.json",
-    },
-  ],
   script: [
     {
       src: "/appearance.js",

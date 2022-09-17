@@ -1,0 +1,19 @@
+portfolio:
+  - title: Connect
+    items:
+      - name: Github
+        url: https://www.github.com/luxterful
+      - name: LinkedIn
+        url: https://www.linkedin.com/in/derlukasbauer/
+      - name: Chess.com
+        url: https://friend.chess.com/fChf
+  - title: Apps
+    items:
+      - name: Recipes
+        url: https://recipes.luxterful.eu/
+  - title: Freelandcing Projects
+    items:
+      - name: Yogandmind
+        url: https://www.yogandmind.de/
+      - name: Krankengymnastik-Agbokhan
+        url: https://www.krankengymnastik-agbokhan.de/
