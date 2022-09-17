@@ -10,7 +10,9 @@
         <div class="font-bold">✌️ HELLO I'M</div>
         <div class="font-extrabold text-3xl">LUKAS BAUER</div>
         <div class="font-thin text-lg mt-5">
-          Software engineer, chess player, UX enthusiast and minimalist.
+          Software engineer, UX enthusiast and minimalist.<br />
+          I like to design stuff and keep it simple.<br />
+          In Aug'22 i fell in love with chess.
         </div>
       </div>
     </div>
