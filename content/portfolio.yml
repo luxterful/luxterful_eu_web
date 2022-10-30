@@ -17,3 +17,11 @@ portfolio:
         url: https://www.yogandmind.de/
       - name: Krankengymnastik-Agbokhan
         url: https://www.krankengymnastik-agbokhan.de/
+  - title: Photography
+    items:
+      - name: Instagram
+        url: https://www.instagram.com/luxterfulphotography
+  - title: Videography
+    items:
+      - name: DnD Podcast Character Intro
+        url: https://youtu.be/t06VHEXW5Nc
