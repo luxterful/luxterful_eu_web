@@ -12,7 +12,7 @@
         <div class="font-thin text-lg mt-5">
           Software engineer, UX enthusiast and minimalist.<br />
           I like to design visual stuff and keep it simple.<br />
-          In Aug'22 i fell in love with chess.
+          In Aug'22 i started playing chess. Are you up for a game?
         </div>
       </div>
     </div>
