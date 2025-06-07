@@ -1,27 +1,51 @@
-portfolio:
-  - title: Connect
-    items:
+interests:
+  - name: Software Development
+  - name: Frontend
+  - name: UX Design
+  - name: Gamification
+  - name: Electrical Engineering
+  - name: Live Streaming Tech
+  - name: Videography
+  - name: Photography
+  - name: Theater Acting
+  - name: Stage Tech
+  - name: Chess
+  - name: FPV Drones
+  - name: 3D Printing
+  - name: Van Life
+  - name: Fishing
+  - name: Dogs
+  - name: "Magic: The Gathering"
+categories:
+  - name: Blogs
+    list:
+      - name: Recipes
+        url: https://recipes.luxterful.eu/
+  - name: Connect
+    list:
       - name: Github
         url: https://www.github.com/luxterful
       - name: LinkedIn
         url: https://www.linkedin.com/in/derlukasbauer/
-      - name: Chess.com
-        url: https://friend.chess.com/fChf
-  - title: Apps
-    items:
-      - name: Recipes
-        url: https://recipes.luxterful.eu/
-  - title: Freelancing Projects
-    items:
+  - name: Freelancing Projects
+    list:
       - name: Yogandmind
         url: https://www.yogandmind.de/
       - name: Krankengymnastik-Agbokhan
         url: https://www.krankengymnastik-agbokhan.de/
-  - title: Photography
-    items:
-      - name: Instagram
-        url: https://www.instagram.com/luxterfulphotography
-  - title: Videography
-    items:
+  - name: Videography
+    list:
       - name: DnD Podcast Character Intro
         url: https://youtu.be/t06VHEXW5Nc
+      - name: FPV Videos
+        url: https://youtube.com/playlist?list=PLQWc04bovL4sRyYzCh__ucvrmHCEpREk7&si=TpfzsYARZI4XPqOQ
+  - name: Photography
+    list:
+      - name: Instagram
+        url: https://www.instagram.com/luxterfulphotography
+  - name: Games i play
+    list:
+      - name: "Magic: The Gathering Collection"
+        url: https://moxfield.com/collection/B2Xk6Si_eUCmLIbxjj-Z3A
+      - name: Chess.com Profile
+        url: https://friend.chess.com/fChf
