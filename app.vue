@@ -7,7 +7,7 @@
   <div class="max-w-screen-md mx-auto px-5 pb-4">
     <hr class="mt-9 mb-4 border-stone-300 dark:border-stone-700" />
     <div class="text-center text-xs text-stone-300 dark:text-stone-700">
-      Copyright 2022
+      <span class="mr-2">Copyright 2022</span>
       <a
         href="/legal"
         class="bg-stone-300 hover:bg-stone-400 dark:bg-stone-700 dark:hover:bg-stone-600 text-white dark:text-stone-800 py-1 px-2 rounded-full"
@@ -16,7 +16,12 @@
       </a>
     </div>
     <div class="text-center text-xs text-stone-300 dark:text-stone-700 mt-3">
-      <a href="https://github.com/luxterful/luxterful_eu_web">edit on github</a>
+      <a
+        href="https://github.com/luxterful/luxterful_eu_web"
+        class="bg-stone-300 hover:bg-stone-400 dark:bg-stone-700 dark:hover:bg-stone-600 text-white dark:text-stone-800 py-1 px-2 rounded-full"
+      >
+        sourcecode on github
+      </a>
     </div>
   </div>
 </template>
