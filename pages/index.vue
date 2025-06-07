@@ -10,8 +10,8 @@
         <div class="font-bold">✌️ HELLO I'M</div>
         <div class="font-extrabold text-3xl">LUKAS BAUER</div>
         <div class="font-thin text-lg mt-5">
-          Software engineer, UX enthusiast and minimalist.<br />
-          I like to design visual stuff and keep it simple.
+          Software engineer, UX enthusiast and hobbyist with diverse interests.
+          Explore my passions below.
         </div>
         <NuxtLink
           v-for="item in connectData.connect"
@@ -37,11 +37,11 @@
       </div>
     </div>
 
-    <!-- Apps Section -->
+    <!-- Blogs Section -->
     <div>
-      <div class="text-2xl mt-5 dark:text-white">Apps</div>
+      <div class="text-2xl mt-5 dark:text-white">Blogs</div>
       <NuxtLink
-        v-for="item in appsData.apps"
+        v-for="item in blogsData.blogs"
         :to="item.url"
         class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
       >
@@ -103,7 +103,7 @@
 // Load all separate portfolio files
 const [
   connectData,
-  appsData,
+  blogsData,
   freelancingData,
   photographyData,
   videographyData,
@@ -111,7 +111,7 @@ const [
   interestsData,
 ] = await Promise.all([
   queryContent("/portfolio-connect").findOne(),
-  queryContent("/portfolio-apps").findOne(),
+  queryContent("/portfolio-blogs").findOne(),
   queryContent("/portfolio-freelancing").findOne(),
   queryContent("/portfolio-photography").findOne(),
   queryContent("/portfolio-videography").findOne(),
