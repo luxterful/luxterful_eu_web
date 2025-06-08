@@ -46,7 +46,7 @@
         v-for="item in category.list || []"
         :key="item.name"
         :to="item.url"
-        class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2"
+        class="bg-black dark:bg-white p-2 rounded-md text-white dark:text-black inline-block mr-2 mt-2 hover:bg-neutral-700 dark:hover:bg-neutral-200 hover:text-white dark:hover:text-black transition-colors"
       >
         {{ item.name }}<IconExternal />
       </NuxtLink>
